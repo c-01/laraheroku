@@ -27,4 +27,12 @@ class UsersTableSeeder extends Seeder
         factory(User::class, 100)->create();
     }
 }
+
+$ php artisan migrate --seed
+```
+## using Heroku
+```
+$ heroku login
+
+
 ```
