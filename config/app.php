@@ -25,7 +25,8 @@ return [
     | services the application utilizes. Set this in your ".env" file.
     |
     */
-
+    'log' => 'errorlog',
+    
     'env' => env('APP_ENV', 'production'),
 
     /*
