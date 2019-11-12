@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function index($id)
     {
-        return User::find(1);
+        return User::find($id);
     }
 }

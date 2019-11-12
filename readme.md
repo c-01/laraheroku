@@ -35,4 +35,6 @@ $ php artisan migrate --seed
 $ heroku login
 link : https://medium.com/@Oriechinedu/how-to-host-a-laravel-app-with-mysql-database-on-heroku-ab56b08be735
 
+To get all tables, use this:
+$tables = \DB::select('show tables');.
 ```
