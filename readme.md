@@ -33,6 +33,6 @@ $ php artisan migrate --seed
 ## using Heroku
 ```
 $ heroku login
-
+link : https://medium.com/@Oriechinedu/how-to-host-a-laravel-app-with-mysql-database-on-heroku-ab56b08be735
 
 ```
